@@ -13,6 +13,11 @@ Here I blog about my journey with gitHub.
     {% endfor %}
 </ul>
 
+# Repositories
+<ul>
+    <li><a href="https://james-hunter.github.io/test1/">Test Repository 1</a></li>        
+</ul>
+
 # Get in touch
 <ul>
 <li><a href="https://github.com/{{ site.github_username}}">GitHub</a></li>
