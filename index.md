@@ -10,7 +10,7 @@ Here I blog about my journey with gitHub.
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
-  {% end for %}
+  {% endfor %}
 </ul>
 
 # Get in touch
