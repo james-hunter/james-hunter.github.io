@@ -7,11 +7,11 @@ I'm interested in learning new It technologies for fun and for work.
 Here I blog about my journey with gitHub.
 <ul>
   {% for post in site.posts %}
-   <li>
-     <a href="{{ post.url }}">{{ post.title }}</a>
-   </li>
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
   {% end for %}
- </ul>
+</ul>
 
 # Get in touch
 <ul>
