@@ -6,11 +6,11 @@ I'm interested in learning new It technologies for fun and for work.
 # My blog
 Here I blog about my journey with gitHub.
 <ul>
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
 </ul>
 
 # Get in touch
