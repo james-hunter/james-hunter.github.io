@@ -21,3 +21,4 @@ Here I blog about my journey with gitHub.
 <li><a href="https://github.com/{{ site.github_username}}">GitHub</a></li>
 </ul>
 
+\n## Installation
