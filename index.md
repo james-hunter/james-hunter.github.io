@@ -11,7 +11,7 @@ Here I blog about my journey with GitHub.
     {% endfor %}
 </ul>
 
-# My blog posts, by categories
+My blog posts, by categories
 
 {%- assign categories = site.categories | sort -%}
 {%- for category in categories -%}
