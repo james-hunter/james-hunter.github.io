@@ -1,14 +1,15 @@
 # My interests
-I'm interested in learning new It technologies for fun and for work.
+I'm interested in learning new IT technologies for fun and for work.
 
 # My blog posts
 Here I blog about my journey with GitHub.
 
+<div markdown="1">
 {%- assign categories = site.categories | sort -%}
 {%- for category in categories -%}
 {%- assign categoryName = category[0] -%}
 {%- assign categoryNumPosts = category[1] | size -%}
-<h2 markdown="1" id="{{categoryName | uri_escape | downcase }}">{{ categoryName }} ({{ categoryNumPosts }})</h2>
+<h2 id="{{categoryName | uri_escape | downcase }}">{{ categoryName }} ({{ categoryNumPosts }})</h2>
 
 <ul>
     {% assign sorted_posts = category[1] | reversed %}
@@ -20,6 +21,7 @@ Here I blog about my journey with GitHub.
 </ul>
 
 {%- endfor -%}
+</div>
 
 # Repositories
 <ul>
