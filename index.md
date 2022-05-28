@@ -11,11 +11,10 @@ Here I blog about my journey with GitHub.
     {% endfor %}
 </ul>
 
-My blog posts, by categories
+
 
 {%- assign categories = site.categories | sort -%}
 {%- for category in categories -%}
-
 {%- assign categoryName = category[0] -%}
 {%- assign categoryNumPosts = category[1] | size -%}
 <h2 id="{{categoryName | uri_escape | downcase }}">{{ categoryName }} ({{ categoryNumPosts }})</h2>
