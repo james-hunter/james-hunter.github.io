@@ -1,3 +1,7 @@
+---
+Title: James' Website
+---
+
 # My interests
 I'm interested in learning new IT technologies for fun and for work.
 
