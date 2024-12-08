@@ -4,7 +4,7 @@ author: jhunter
 title: Changing CLI environment
 categories:
 - powershell
-date: 2024-08-12
+date: 2024-12-08
 ---
 
 # Command
