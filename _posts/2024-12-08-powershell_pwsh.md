@@ -8,13 +8,13 @@ date: 2024-12-08
 ---
 
 # Command
-`powershell
+`powershell`
 
 # Definition
 While working inside the terminal you can change which shell you are using. 
 Simple enter the name of the shell: powershell, pwsh or cmd (or powershell.exe or pwsh.exe or cmd.exe respectively). 
 
-Note that you can view the powershell version with the output of the variable $psversiontable. Windows 11 also shows 'PS' in the terminal to let you know that you are inside powershell or pwsh.
+Note that you can view the powershell version with the output of the variable `$psversiontable`. Windows 11 also shows `PS` in the terminal to let you know that you are inside powershell or pwsh.
 
 ```powershell
 PS C:\> $psversiontable
