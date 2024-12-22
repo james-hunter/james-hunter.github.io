@@ -74,3 +74,4 @@ Sun Dec 22 11:35:18 PM UTC 2024 On server1 ping from 192.168.2.199        to    
 Sun Dec 22 11:35:18 PM UTC 2024 On server1 ping from 192.168.2.199        to      192.168.2.1     succeeded
 Sun Dec 22 11:35:18 PM UTC 2024 On server1 ping from 192.168.2.199        to      192.168.186.1   failed
 Sun Dec 22 11:35:18 PM UTC 2024 On server1 ping from 192.168.2.199        to      8.8.8.8 succeeded
+```
