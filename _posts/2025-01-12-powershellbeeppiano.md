@@ -8,8 +8,6 @@ date: 2025-01-12
 ---
 
 # Sources
-`get-help get-wmiobject`
-
 [https://stackoverflow.com](https://stackoverflow.com/questions/57650484/delay-between-consecutive-calls-to-console-beep)
 
 [https://devblogs.microsoft.com](https://devblogs.microsoft.com/scripting/powertip-use-powershell-to-send-beep-to-console)
@@ -31,15 +29,13 @@ Import the function into powershell.exe or pwsh.exe (but not the ISE).
 
 The console beep can be controlled in two ways: the frequency and the length of the beep. The function defines the frequency of middle C in Hertz. The length can be changed but defaults to 600 milliseconds.
 
-With this function, you get one octave of musical notes:
-
-Computer keyboard:
+With this function, you get one octave of musical notes. The computer keyboard keys:
 ```powershell
  WE TYU
 ASDFGHJK
 ```
 
-Correspond to the piano keys:
+correspond to the piano keys:
 ```powershell
  CD FGA   (sharps)
 CDEFGABC
