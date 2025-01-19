@@ -13,7 +13,7 @@ date: 2025-01-19
 # Summary
 This blog shows a couple of ways to use dots `.` and ampersands `&` in PowerShell.
 
-# Dot
+# Dot .
 ## Using a dot as the present working directory
 When writing te path to a file, begin the path like this to show that the item is inside the present working directory.
 ```powershell
@@ -30,10 +30,10 @@ Run a script in the current scope.
 ```
 You can use the dot sourcing operator as an alias of `ìmport-module`, when the .ps1 file contains functions.
 
-# Ampersand
+# Ampersand &
 ## Call operator
 The ampersand is a call operator. When you call a script file with the ampersand the code is run in a different scope to the curent one.
-`` powershell
+``` powershell
 & C:\Temp\20250119_test.ps1
 ```
 Since the script gets executed in another scope, it doesn't make sense to use an ampersand to import a function.
