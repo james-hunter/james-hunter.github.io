@@ -2,7 +2,7 @@
 layout: post
 author: jhunter
 title: Powershell dots and ampersands 
-cnategories:
+categories:
 - powershell
 date: 2025-01-19
 ---
