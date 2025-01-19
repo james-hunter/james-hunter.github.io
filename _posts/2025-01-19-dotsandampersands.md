@@ -15,7 +15,7 @@ This blog shows a couple of ways to use dots `.` and ampersands `&` in PowerShel
 
 # Dot .
 ## Using a dot as the present working directory
-When writing te path to a file, begin the path like this to show that the item is inside the present working directory.
+When writing the path to a file, begin the path like this to show that the item is inside the present working directory.
 ```powershell
 .\
 ```
@@ -47,7 +47,9 @@ function james-test{
 
 }
 ```
-Trying to import the script with an ampersand fails. With the dot source operator it works. I only imported the function so the $x variable is still null.
+Trying to import the script with an ampersand fails. With the dot source operator it works. 
+
+Once the function is imported, the `$x` variable is still null.
 ```powershell
 PS C:\Temp> & .\20250119_test.ps1
 PS C:\Temp> dir function:*james*
@@ -64,11 +66,11 @@ Function        james-test
 PS C:\Temp> $x
 PS C:\Temp>
 ```
-When I run the function with an ampersand the script runs in another scope and returns the value of $x. However, the value of $x in the current scope is unchanged.
+When I run the function with an ampersand the script runs in another scope and returns the value of `$x`. However, the value of `$x` in the current scope is unchanged.
 
-Interestingly, if I run the function without any call operator, it is as if I used the ampersand. The function is executed but the value of $x is unchanged in the current scope.
+Interestingly, if I run the function without any call operator, it is as if I used the ampersand. The function is executed but the value of `$x` is unchanged in the current scope.
 
-The value of $x is changed if I run the function in the current scope with a dot.
+The value of `$x` is changed if I run the function in the current scope with a dot.
 ```powershell
 PS C:\Temp> & james-test
 1
