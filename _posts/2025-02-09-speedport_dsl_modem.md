@@ -26,7 +26,7 @@ The DSL modem allows me to use an external device as a point-to-point over Ether
 * cisco routers running IOS
 * Windows computers
 
-I found it a great way to learn about DSl and PPPOE, and also about how my own devices work practically.
+I found it a great way to learn about DSL and PPPOE, and also about how my own devices work practically.
 
 This blog post is not intended as a complete configuration guide, but only a suggestion of what can be possible.
 
@@ -49,7 +49,7 @@ After a couple of moments the device will show only two white solid lights: Stat
 # Configuring your PPPOE client device
 You need to configure your PPPOE client using the same credentials used in the Speedport Entry 3. You find this on the paperwork provided by your internet provider.
 
-For Deutsch Telekom customers, this data looks like this:
+For Deutsche Telekom customers, this data looks like this:
 
 | German | English | Format |
 | :----- | :------ | :----: |
