@@ -8,12 +8,12 @@ date: 2025-02-09
 ---
 
 # Sources
-(telekomhilft.telekom.de)[https://telekomhilft.telekom.de/conversations/festnetz-internet/konfiguration-tipps-f%C3%BCr-cisco-876-router/668611fe4ae73561da06a47f]
+[telekomhilft.telekom.de](https://telekomhilft.telekom.de/conversations/festnetz-internet/konfiguration-tipps-f%C3%BCr-cisco-876-router/668611fe4ae73561da06a47f)
 
-(dslreports.com)[https://web.archive.org/web/20150815202703/http://www.dslreports.com/faq/10952]
+[dslreports.com](https://web.archive.org/web/20150815202703/http://www.dslreports.com/faq/10952)
 
 # Introduction
-I love the way telecommunications developed into the internet. In the olden days a normal telephone connection could be used as an interface with the internet. This old (July 1982) article from the (wikipedia page for xmodem)[https://en.wikipedia.org/wiki/XMODEM] gives a fun example of using hotel phones in various countries in order to set up an internet connection: (Osborne—Behind Guerrilla Lines)[https://archive.org/stream/kilobaudmagazine-1982-07/Microcomputing_1982_July#page/n43/mode/2up]
+I love the way telecommunications developed into the internet. In the olden days a normal telephone connection could be used as an interface with the internet. This old (July 1982) article from the [wikipedia page for xmodem](https://en.wikipedia.org/wiki/XMODEM) gives a fun example of using hotel phones in various countries in order to set up an internet connection: [Osborne—Behind Guerrilla Lines](https://archive.org/stream/kilobaudmagazine-1982-07/Microcomputing_1982_July#page/n43/mode/2up)
 
 Today it is not really necessary to know much about how a home router works in order to connect to the internet. In my case, I received a Speedport Entry 3 device from my internet provider Deutsche Telekom, and after powering it on, I went to it's web interface and typed in my credentials.
 
