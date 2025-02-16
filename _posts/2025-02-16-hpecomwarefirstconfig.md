@@ -24,6 +24,7 @@ The HPE switch can be configured via the console port with a normal console cabl
 I can enable POE from the console with these simple commands:
 
 ```bash
+system-view
 interface GigabitEthernet1/0/48
  poe enable
 ```
