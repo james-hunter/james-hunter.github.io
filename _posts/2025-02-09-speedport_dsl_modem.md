@@ -3,7 +3,7 @@ layout: post
 author: jhunter
 title: Deutsche Telekom Speedport Entry 3 as a DSL modem
 categories:
-- dsl
+- networking
 date: 2025-02-09
 ---
 

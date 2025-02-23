@@ -3,7 +3,7 @@ layout: post
 author: jhunter
 title: Preparing a Wireguard VPN from Telekom in ubuntu server
 categories:
-- wireguard
+- networking
 date: 2024-12-15
 ---
 
