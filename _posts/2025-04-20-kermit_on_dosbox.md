@@ -9,7 +9,9 @@ date: 2025-04-20
 
 # Source
 [columbia.edu](https://www.columbia.edu/kermit/mskermit.html)
+
 [kermitproject.org](https://www.kermitproject.org/onlinebooks/usingmsdoskermit2e.pdf)
+
 [vogons.org](https://www.vogons.org/viewtopic.php?t=64293)
 
 # Summary
@@ -27,11 +29,11 @@ This blog is using this physcial topology:
 * I use a usb-to-serial adapter on my win11 PC.
 
 # Configuring the COM port
-Inside the control panel of Windows I can see the COM port number is COM10.
+Inside the control panel of Windows I can see the COM port on my PC is COM10.
 
 If I want to use the COM port inside dosbox, I need to tell DOSBox the COM port number using the DOSBox configuration file.
 
-To open the configuraion file I access this linke:
+To open the configuraion file I access this link:
 
 `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\DOSBox-0.74-3\Options\DOSBox 0.74-3 Options.lnk`
 
@@ -63,7 +65,9 @@ c:
 # Using Kermit in DOSBox
 I start the DOSBox program and the autoexec code is executed
 
-Inside DOSBox I navigate to the Kermit folder, and start Kermit. To preove that the COM port is working, I show the communication status.
+Inside DOSBox I navigate to the Kermit folder, and start Kermit. 
+
+To prove that Kermit has detected the COM port, I get the COM port status with `show communications`.
 
 ```powershell
 cd msk316
