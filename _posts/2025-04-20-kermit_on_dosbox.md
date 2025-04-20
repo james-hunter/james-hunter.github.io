@@ -1,7 +1,7 @@
 ---
 layout: post
 author: jhunter
-title: Kermit on dosbox
+title: Kermit on DOSBox
 categories:
 - networking
 date: 2025-04-20
