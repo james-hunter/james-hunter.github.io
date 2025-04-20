@@ -61,7 +61,7 @@ I open the DOSBox configuration file, and go to this section. I update the confi
 [autoexec]
 # Lines in this section will be run at startup.
 # You can put your MOUNT lines here.
-mount c D:\RIGAS-DATORS\ProgramData\dosboxc
+mount c D:\ProgramData\dosboxc
 c:
 ```
 
