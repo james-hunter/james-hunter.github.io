@@ -8,6 +8,9 @@ date: 2025-04-20
 ---
 
 # Source
+
+[dosbox.com](https://www.dosbox.com/download.php?main=1)
+
 [columbia.edu](https://www.columbia.edu/kermit/mskermit.html)
 
 [kermitproject.org](https://www.kermitproject.org/onlinebooks/usingmsdoskermit2e.pdf)
@@ -64,6 +67,18 @@ c:
 
 # Using Kermit in DOSBox
 I start the DOSBox program and the autoexec code is executed
+
+DOSBox opens a debug window alongside the main emulator. The debugging window shows me that the serial port is connected to COM10.
+
+```powershell
+DOSBox version 0.74-3
+Copyright 2002-2019 DOSBox Team, published under GNU GPL.
+---
+CONFIG:Loading primary settings from config file C:\Users\User1\AppData\Local\DOSBox\dosbox-0.74-3.conf
+MIDI:Opened device:win32
+Serial1: Opening COM10
+DOS keyboard layout loaded with main language code EN for layout en
+```
 
 Inside DOSBox I navigate to the Kermit folder, and start Kermit. 
 
