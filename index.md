@@ -29,7 +29,8 @@ Here I blog about my journey with GitHub.
 
 # Repositories
 <ul>
-    <li><a href="https://james-hunter.github.io/test1/">Test Repository 1</a></li>        
+    <li><a href="https://james-hunter.github.io/test1/">Test Repository 1</a></li>
+    <li><a href="https://james-hunter.github.io/powershell-functions/">Powershell functions</a></li>
 </ul>
 
 # Get in touch
