@@ -25,7 +25,7 @@ A personal favourite podcast of mine is the variety music podcast from Rotterdam
 The show is presented by Roland Vonk and in every episode he presents music from all decades and genres. Sometimes he plays extracts of spoken-word radio programs - political discussion, comedy, and more.
 I love the variety of the material. It is a rich source of entertainment that is new and unexpected to me.
 
-There are so many episodes, that I simply can't remember where I heard something. Each audio file that I have only has the program name, the hour and the date. In addition the radio show came to an end in Decmeber 2025.
+There are so many episodes, that I simply can't remember where I heard something. Each audio file that I have only has the program name, the hour and the date. In addition the radio show came to an end in December 2025.
 
 This motivated me to make a LibreOffice calc speadsheet to order my own notes on the episodes available to me.
 
@@ -156,7 +156,7 @@ $result | ConvertTo-Csv -Delimiter `t -NoTypeInformation | Set-Clipboard
 
 I now open a clean Libreoffice calc workbook with one sheet in it.
 
-I have my file data in my clipboard so I simply paste it into a new Libreoffice calc workbook. I add autofilter to the table, and sort the data by broadcast date. I also format the dates for my preference as "dddd dd MMMM yyyy" for the broadcast date.
+I have my file data in my clipboard so I paste it into the new Libreoffice calc workbook. I add autofilter to the table, and sort the data by broadcast date. I also format the broadcast dates for my preference as "dddd dd MMMM yyyy".
 
 In my case, the copy-paste unhelpfully pasted the dates as strings. To convert strings into dates in Libreoffice calc:
 1. Select all interesting cells
@@ -188,7 +188,7 @@ I wish to easily play the episode's audio file from the spreadsheet, so I add a 
 
 I press Alt + F11.
 
-Under the current workbook ("Untitled1")., I click on New, I accept the module name "Module1" and I am taken to the macro editor.
+Under the current workbook ("Untitled1"), I click on New, I accept the module name "Module1" and I am taken to the macro editor.
 
 The cursor is focussed on the macro 'Main' which is in the current workbook's macros: Standard, Module1, Main.
 
