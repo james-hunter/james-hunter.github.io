@@ -14,7 +14,7 @@ date: 2026-03-31
 CCNP(TM) Remote Access Study Guide (Exam 640-505) by Syngress Media, 2000
 
 # Summary
-I passed the cisco CCNA certificate in Augut 2018. In preparation for the test I learned how to configure cisco 1921 IOS routers.
+I passed the cisco CCNA certificate in August 2018. In preparation for the test I learned how to configure cisco 1921 IOS routers.
 
 These routers have ethernet ports, console ports for configuring and also 'aux' ports. The learning materials I read never went into detail about the aux port, and I only ever used it as a secondary console port directly connected to my PC over a rollover cable.
 
@@ -38,7 +38,9 @@ After reading these resources, I collected these items to build a lab. The Fritz
 # Configurations
 The modems I bought had different firmwares. I saw this using this command on both 56k modems:
 
+```bash
 ATI7
+```
 
 One did not include protocol v.92, so I needed to configure the other to ignore that protocol, using these commands in the modem. Cards on the table, this was the one place where AI helped me out.
 
