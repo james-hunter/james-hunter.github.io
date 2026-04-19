@@ -10,19 +10,22 @@ date: 2026-04-19
 # Sources 
 
 [rijnmond.nl](https://www.rijnmond.nl/luister/podcasts)
+
 [apple.com](https://podcasts.apple.com/nl/search?term=%27t%20opkamertje)
+
 [libreoffice.org](https://ask.libreoffice.org/t/how-to-start-a-program-from-basic-macro/62629)
+
 [microsoft.com](https://devblogs.microsoft.com/scripting/powershell-regex-crash-course-part-4-of-5/)
-'t Opkamertje spreadsheet notes
 
 # Introduction
 
 For years I have used Apple iTunes on my Windows computers to download and listen to podcasts.
+
 A personal favourite podcast of mine is the variety music podcast from Rotterdam, called "'t Opkamertje" which means "the little room upstairs". 
 The show is presented by Roland Vonk and in every episode he presents music from all decades and genres. Sometimes he plays extracts of spoken-word radio programs - political discussion, comedy, and more.
 I love the variety of the material. It is a rich source of entertainment that is new and unexpected to me.
-There are so many episodes, that I simply can't remember where I heard something. Each audio file that I have only has the program name, the hour and the date.
-In addition the radio show came to an in Decmeber 2025.
+
+There are so many episodes, that I simply can't remember where I heard something. Each audio file that I have only has the program name, the hour and the date. In addition the radio show came to an end in Decmeber 2025.
 
 This motivated me to make a LibreOffice calc speadsheet to order my own notes on the episodes available to me.
 
@@ -234,7 +237,7 @@ With my macro selected at the right now, I click on Modify and "Change Icon". I 
 
 I click OK, and the dialogue closes.
 
-![image](https://james-hunter.github.io/pictures/20260419_1.gif)
+![image](https://james-hunter.github.io/pictures/20260419_1.jpg)
 
 In the top of my workbook I now have a play icon which will run my macro when I click on it.
 
