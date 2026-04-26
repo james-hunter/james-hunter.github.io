@@ -5,6 +5,11 @@ Title: James' Website
 # My interests
 I'm interested in learning new IT technologies for fun and for work.
 
+# Repositories
+<ul>
+    <li><a href="https://james-hunter.github.io/powershell-functions/">Powershell functions</a></li>
+</ul>
+
 # My blog posts
 Here I blog about my journey with GitHub.
 
@@ -26,12 +31,6 @@ Here I blog about my journey with GitHub.
 
 {%- endfor -%}
 </div>
-
-# Repositories
-<ul>
-    <li><a href="https://james-hunter.github.io/test1/">Test Repository 1</a></li>
-    <li><a href="https://james-hunter.github.io/powershell-functions/">Powershell functions</a></li>
-</ul>
 
 # Get in touch
 <ul>
