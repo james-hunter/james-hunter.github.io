@@ -82,7 +82,7 @@ find -name "*.mid" -exec bash -c "james_invoke_timidity \"{}\"" \; -quit
 
 # Result
 
-Afer the command completes, I have a subfolder named 'mp3' filled with mp3 files created from the mp3 files in the pwd.
+After the command completes, I have a subfolder named 'mp3' filled with mp3 files created from the mp3 files in the pwd.
 
 Now I can enjoy the music from those midi files on applications that didn't support midi.
 
