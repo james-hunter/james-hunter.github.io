@@ -27,7 +27,7 @@ date: 2026-06-14
 
 # Definition
 
-This command lets me get data from an online resources which are designed for programming, aka "API".
+This command lets me get data from an online resources which are designed for programming, aka "APIs".
 
 Windows powershell also has the commands `invoke-webrequest` and `curl`. The three commands get web data on the command line, but they all three have different purposes.
 
@@ -41,7 +41,7 @@ All three commands have their uses.
 
 `-Uri` is followed by the web address of the API.
 
-`-Method` most commonly takes `GET`, `PUT`, or `POST`. `GET` of course lets you read data, but according to an API's documentation, `PUT` or `POST` may be the method to get information. `PUT` and `POSt` can be used to make changes to items within the API.
+`-Method` most commonly takes `GET`, `PUT`, or `POST`. `GET` of course lets you read data, but according to an API's documentation, `PUT` or `POST` may be the method to get information. `PUT` and `POST` can be used to make changes to items within the API.
 
 `-Headers` is optional depending on the API, and what you are trying to do. This can contain authentication data. It might be used to signal to the target which kind of data you are sending. It might be used to define what data you are asking for.
 
@@ -49,7 +49,7 @@ All three commands have their uses.
 
 There are many other options but these are the ones I use mostly.
 
-# Example
+# Examples
 
 ## Without authentication
 
@@ -89,9 +89,9 @@ Content           : <?xml version="1.0" encoding="UTF-8"?>
 
 The company Atlassian has a product Jira which can be used to track work items. I subscribed to the free version to test out its API.
 
-With my free subscription I got access to my personal Jira space.
+With my free subscription I get API access to my personal Jira space.
 
-Jira provided me with an APi token, and that's basically my password for accessing the Jira API. I stock the password temporarily in `c:\temp\token.txt`. To use the Jira API I put authentication data into the header of the `invoke-restmethod` command.
+Jira provided me with an APi token, and that's basically my password for the Jira API. I stock the password temporarily in `c:\temp\token.txt`. To use the Jira API I put authentication data into the header of the `invoke-restmethod` command.
 
 ```powershell
 #Source - https://stackoverflow.com/a/27951845
@@ -119,7 +119,7 @@ $myselfdata = invoke-restmethod -Uri $myselfuri -Method GET -Headers $header
 
 # Final comments
 
-It's great fun to get data form the web. Lots of websites make their resources available pver API, such as reddit or other news sites.
+It's great fun to get data from the web. Lots of websites make their resources available over APIs, such as reddit or other news sites.
 
 In a work setting, programming my work with an API and automating it with scheduled tasks is a fantastic time saver.
 
