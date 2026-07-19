@@ -15,19 +15,21 @@ date: 2026-07-19
 
 [linux.die.net](https://linux.die.net/man/1/vmpsd)
 
-[chatgpt.com](chatgpt.com)
+[chatgpt.com](https://chatgpt.com)
 
-[gemini.google.com](gemini.google.com)
+[gemini.google.com](https://gemini.google.com)
 
 Cioara, J.D., Cavanaugh, M.J. and Krake, K.A. (2010) CCNA voice - official exam certification guide. Indianapolis, Ind: Cisco Pr. 
 
 # Introduction
 
-Reading older networking textbooks has lots of advantages. One reason is that old documentation lets me understand technologies that I have used for decades which is really satisfying, even if I don't use those technologies so much anymore. Recently I picked us the cisco CCNA voice guide from ebay for only 5 euros which was written around 2008-2010. I'm intending to refresh my understaning of SIP telephones.
+Reading older networking textbooks has lots of advantages. One reason is that old documentation lets me understand technologies that I have used for decades. It is really satisfying to know how things work even if I don't use those technologies so much anymore.
 
-Another reason for reading old documents is that sometimes you get lumped with old equipment and you just do not have the possibility to update its software.
+Recently I picked up a book, the cisco CCNA voice guide (2010), from ebay for only 5 euros. I am intending to refresh my understaning of SIP telephones.
 
-I have just finished reading chapter 3 of the book which is called 'connecting IP phones to the LAN infrastructure'. Now it's obvious if you will use an IP phone on your desk that you need to connect an ethernet cable from the phone to a switch. It's less obvious how you will configure the switch's interface.
+Another reason for reading old documents is that sometimes you get lumped with old equipment and you just need to read old sources to know how to use it.
+
+I have just finished reading chapter 3 of the book which is called 'connecting IP phones to the LAN infrastructure'. Now it's obvious if you will use an IP phone on your desk that you need to connect an ethernet cable from the phone to a switch. It's less obvious how you will configure the switch's interface. The cisco book I'm ready describes the command line method of configuring switchport VLANs, but it inspires me to seek ways of configuring switchport VLANs in a more automatic way.
 
 For fun and learning I have a cisco c2950 switch which works well but is stuck with an old operating system from 2002.
 
